@@ -1,6 +1,6 @@
 {
   "name": "sigsurv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "node port of https://github.com/chad/sigsurv",
   "main": "lib/sigsurv.js",
   "engines": {
