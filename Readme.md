@@ -1,1 +1,1 @@
-boostrap for my node/npm modules
+node port of https://github.com/chad/sigsurv
