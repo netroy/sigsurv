@@ -1,17 +1,26 @@
 {
-  "name": "npm-bootstrap",
+  "name": "sigsurv",
   "version": "0.0.0",
-  "description": "bootstrap for my node/npm modules",
-  "main": "lib/index.js",
+  "description": "node port of https://github.com/chad/sigsurv",
+  "main": "lib/sigsurv.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+    "sigsurv": "./bin/sigsurv"
+  },
   "scripts": {
-    "test": "make lint test"
+    "test": "make"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/netroy/npm-bootstrap.git"
+    "url": "git://github.com/netroy/sigsurv.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "NetRoY <aditya@netroy.in> (http://netroy.in/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "glob": "~3.2.7",
+    "colors": "~0.6.2"
+  }
 }

@@ -10,4 +10,4 @@ install:
   - npm install --loglevel error
 
 script:
-  - make lint test
+  - npm test

@@ -1,0 +1,15 @@
+{
+  "rb": {
+    "module": "m",
+    "class": "c",
+    "def": "d",
+    "do": "o",
+    "if": "i",
+    "end": "e"
+  },
+  "js": {
+    "function": "f",
+    "if": "i",
+    "switch": "s"
+  }
+}
